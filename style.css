@@ -78,21 +78,17 @@ ul li::before {
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(img/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
     left: 8px;
 }
 
-ul li.checked {
+ul li{
     color: #555;
     text-decoration: line-through;
 }
 
-ul li.checked::before {
-    background-image: url(img/checked.png);
-}
 
 ul li span {
     position: absolute;
